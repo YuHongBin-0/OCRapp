@@ -1,7 +1,11 @@
 package com.example.ocrapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -25,12 +29,15 @@ public class ScanMeterActivity extends AppCompatActivity{
     protected String foundBarcodeString;
     private String lastDetectedBarcodeValue = "";
 
+    private static final String TAG = "SecondActivity";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan_meter);
 
+        Button buttonBack = findViewById(R.id.backBtn);
 
         try {
             AnylineSDK.init(getString(R.string.anyline_license_key), this);
@@ -65,6 +72,16 @@ public class ScanMeterActivity extends AppCompatActivity{
 
                 lastDetectedBarcodeValue = energyResult.getResult();
                 tView.setText(energyResult.getResult());
+            }
+        });
+
+        buttonBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.putExtra("extra_return", lastDetectedBarcodeValue);
+                setResult(RESULT_OK, intent);
+                finish();
             }
         });
 
