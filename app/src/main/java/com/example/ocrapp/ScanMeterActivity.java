@@ -75,15 +75,17 @@ public class ScanMeterActivity extends AppCompatActivity{
             }
         });
 
-        buttonBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.putExtra("extra_return", lastDetectedBarcodeValue);
-                setResult(RESULT_OK, intent);
-                finish();
-            }
-        });
+//        Below codes for manual return to previous activity with result data
+
+//        buttonBack.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.putExtra("extra_return", lastDetectedBarcodeValue);
+//                setResult(RESULT_OK, intent);
+//                finish();
+//            }
+//        });
 
 
 

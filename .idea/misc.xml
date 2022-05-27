@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hongbin.yu/Desktop/Codes/Github/OCRapp/app/src/main/res/drawable/button_color_selector_transparent.xml" value="0.1" />
+        <entry key="..\:/Users/hongbin.yu/Desktop/Codes/Github/OCRapp/app/src/main/res/drawable/button_text_color_selector.xml" value="0.1" />
+        <entry key="..\:/Users/hongbin.yu/Desktop/Codes/Github/OCRapp/app/src/main/res/drawable/ic_warning_dark_grey_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/hongbin.yu/Desktop/Codes/Github/OCRapp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hongbin.yu/Desktop/Codes/Github/OCRapp/app/src/main/res/layout/activity_scan_meter.xml" value="0.1" />
+        <entry key="..\:/Users/hongbin.yu/Desktop/Codes/Github/OCRapp/app/src/main/res/layout/dialog_simple.xml" value="0.1" />
         <entry key="..\:/Users/hongbin.yu/Desktop/Codes/OCR/OCRapp/app/src/main/res/drawable/button_color_selector_transparent.xml" value="0.134" />
         <entry key="..\:/Users/hongbin.yu/Desktop/Codes/OCR/OCRapp/app/src/main/res/drawable/button_text_color_selector.xml" value="0.134" />
         <entry key="..\:/Users/hongbin.yu/Desktop/Codes/OCR/OCRapp/app/src/main/res/drawable/ic_warning_dark_grey_24dp.xml" value="0.196" />
